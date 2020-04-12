@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text" format="string"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="color"/>
+    <declare-styleable name="MyTextView">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextViewGroup">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="StepView">
+
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="paddingSize" format="dimension"/>
+        <attr name="innerColor" format="color"/>
+        <attr name="outerColor" format="color"/>
+        <attr name="currentSteps" format="integer"/>
+        <attr name="totalSteps" format="integer"/>
+
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+    </declare-styleable>
+</resources>
